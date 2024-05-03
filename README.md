@@ -14,7 +14,7 @@ This is a powerful transpiler written in JavaScript that converts JavaScript cod
 ## Usage
 
 1. Clone the repository:
-git clone https://github.com/yourusername/javascript-to-typescript-transpiler.git
+git clone https://github.com/savisxss/javascript-to-typescript-transpiler.git
 
 2. Navigate to the project directory:
 cd javascript-to-typescript-transpiler
