@@ -1,0 +1,47 @@
+{
+  "name": "js-to-ts-transpiler",
+  "version": "2.0.0",
+  "description": "Advanced JavaScript to TypeScript transpiler with intelligent type inference",
+  "main": "transpiler.js",
+  "bin": {
+    "js2ts": "./transpiler.js"
+  },
+  "scripts": {
+    "start": "node transpiler.js",
+    "transpile": "node transpiler.js",
+    "transpile:strict": "node transpiler.js --strict",
+    "transpile:dir": "node transpiler.js -d ./examples",
+    "test": "node test/test.js",
+    "example": "node transpiler.js -i examples/sample.js -o examples/sample.ts"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "transpiler",
+    "ast",
+    "type-inference",
+    "code-conversion",
+    "static-analysis"
+  ],
+  "author": "savisxss",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.10.0",
+    "acorn-walk": "^8.2.0",
+    "astring": "^1.8.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savisxss/javascript-to-typescript-transpiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/savisxss/javascript-to-typescript-transpiler/issues"
+  },
+  "homepage": "https://github.com/savisxss/javascript-to-typescript-transpiler#readme"
+}
